@@ -77,8 +77,8 @@ function endGame(){
 function resetUI(){
   updateGameMessage("First player to 5 points wins!");
   updateRoundMessage("Make a selection below");
-  updatePlayerScoreMessage("0");
-  updateComputerScoreMessage("0");
+  updatePlayerScoreMessage("Player Score: 0");
+  updateComputerScoreMessage("Computer Score: 0");
 }
 
 function toggleButtons(){
