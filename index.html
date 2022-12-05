@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <script src="./script.js"></script>
+  <script src="./script.js" defer></script>
   <title>JavaScript Exercises</title>
 </head>
 <body>
+  <div class="message-container">
+    <h1 class="game-message">Welcome to the Game! First player to 5 points wins!</h1>
+    <h2 class="round-message">Make a selection below</h2>
+    <div>
+      <p class="player-score-message">0</p>
+      <p class="computer-score-message">0</p>
+    </div>
+
+  </div>
+  <div class="button-container">
+    <button id="rock">Rock</button>
+    <button id="paper">Paper</button>
+    <button id="scissors">Scissors</button>
+  </div>
+  <button style="display: none" class="reset-button">Reset</button>
 </body>
 </html>
